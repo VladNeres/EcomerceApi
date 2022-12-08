@@ -1,0 +1,177 @@
+C:\Users\ClearTech\Documents\Projetos de estudo C#\CategoriaApi\CategoriaApi\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\ClearTech\Documents\Projetos de estudo C#\CategoriaApi\CategoriaApi\bin\Debug\net5.0\appsettings.json
+C:\Users\ClearTech\Documents\Projetos de estudo C#\CategoriaApi\CategoriaApi\bin\Debug\net5.0\CategoriaApi.exe
+C:\Users\ClearTech\Documents\Projetos de estudo C#\CategoriaApi\CategoriaApi\bin\Debug\net5.0\CategoriaApi.deps.json
+C:\Users\ClearTech\Documents\Projetos de estudo C#\CategoriaApi\CategoriaApi\bin\Debug\net5.0\CategoriaApi.runtimeconfig.json
+C:\Users\ClearTech\Documents\Projetos de estudo C#\CategoriaApi\CategoriaApi\bin\Debug\net5.0\CategoriaApi.runtimeconfig.dev.json
+C:\Users\ClearTech\Documents\Projetos de estudo C#\CategoriaApi\CategoriaApi\bin\Debug\net5.0\CategoriaApi.dll
+C:\Users\ClearTech\Documents\Projetos de estudo C#\CategoriaApi\CategoriaApi\bin\Debug\net5.0\CategoriaApi.pdb
+C:\Users\ClearTech\Documents\Projetos de estudo C#\CategoriaApi\CategoriaApi\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\ClearTech\Documents\Projetos de estudo C#\CategoriaApi\CategoriaApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\ClearTech\Documents\Projetos de estudo C#\CategoriaApi\CategoriaApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\ClearTech\Documents\Projetos de estudo C#\CategoriaApi\CategoriaApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\ClearTech\Documents\Projetos de estudo C#\CategoriaApi\CategoriaApi\obj\Debug\net5.0\CategoriaApi.csproj.AssemblyReference.cache
+C:\Users\ClearTech\Documents\Projetos de estudo C#\CategoriaApi\CategoriaApi\obj\Debug\net5.0\CategoriaApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ClearTech\Documents\Projetos de estudo C#\CategoriaApi\CategoriaApi\obj\Debug\net5.0\CategoriaApi.AssemblyInfoInputs.cache
+C:\Users\ClearTech\Documents\Projetos de estudo C#\CategoriaApi\CategoriaApi\obj\Debug\net5.0\CategoriaApi.AssemblyInfo.cs
+C:\Users\ClearTech\Documents\Projetos de estudo C#\CategoriaApi\CategoriaApi\obj\Debug\net5.0\CategoriaApi.csproj.CoreCompileInputs.cache
+C:\Users\ClearTech\Documents\Projetos de estudo C#\CategoriaApi\CategoriaApi\obj\Debug\net5.0\CategoriaApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ClearTech\Documents\Projetos de estudo C#\CategoriaApi\CategoriaApi\obj\Debug\net5.0\CategoriaApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ClearTech\Documents\Projetos de estudo C#\CategoriaApi\CategoriaApi\obj\Debug\net5.0\scopedcss\bundle\CategoriaApi.styles.css
+C:\Users\ClearTech\Documents\Projetos de estudo C#\CategoriaApi\CategoriaApi\obj\Debug\net5.0\staticwebassets\CategoriaApi.StaticWebAssets.Manifest.cache
+C:\Users\ClearTech\Documents\Projetos de estudo C#\CategoriaApi\CategoriaApi\obj\Debug\net5.0\CategoriaApi.RazorTargetAssemblyInfo.cache
+C:\Users\ClearTech\Documents\Projetos de estudo C#\CategoriaApi\CategoriaApi\obj\Debug\net5.0\CategoriaApi.csproj.CopyComplete
+C:\Users\ClearTech\Documents\Projetos de estudo C#\CategoriaApi\CategoriaApi\obj\Debug\net5.0\CategoriaApi.dll
+C:\Users\ClearTech\Documents\Projetos de estudo C#\CategoriaApi\CategoriaApi\obj\Debug\net5.0\refint\CategoriaApi.dll
+C:\Users\ClearTech\Documents\Projetos de estudo C#\CategoriaApi\CategoriaApi\obj\Debug\net5.0\CategoriaApi.pdb
+C:\Users\ClearTech\Documents\Projetos de estudo C#\CategoriaApi\CategoriaApi\obj\Debug\net5.0\CategoriaApi.genruntimeconfig.cache
+C:\Users\ClearTech\Documents\Projetos de estudo C#\CategoriaApi\CategoriaApi\obj\Debug\net5.0\ref\CategoriaApi.dll
+C:\Users\ClearTech\Documents\Projetos de estudo C#\CategoriaApi\CategoriaApi\bin\Debug\net5.0\Google.Protobuf.dll
+C:\Users\ClearTech\Documents\Projetos de estudo C#\CategoriaApi\CategoriaApi\bin\Debug\net5.0\Humanizer.dll
+C:\Users\ClearTech\Documents\Projetos de estudo C#\CategoriaApi\CategoriaApi\bin\Debug\net5.0\K4os.Compression.LZ4.dll
+C:\Users\ClearTech\Documents\Projetos de estudo C#\CategoriaApi\CategoriaApi\bin\Debug\net5.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\ClearTech\Documents\Projetos de estudo C#\CategoriaApi\CategoriaApi\bin\Debug\net5.0\K4os.Hash.xxHash.dll
+C:\Users\ClearTech\Documents\Projetos de estudo C#\CategoriaApi\CategoriaApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\ClearTech\Documents\Projetos de estudo C#\CategoriaApi\CategoriaApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\ClearTech\Documents\Projetos de estudo C#\CategoriaApi\CategoriaApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\ClearTech\Documents\Projetos de estudo C#\CategoriaApi\CategoriaApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\ClearTech\Documents\Projetos de estudo C#\CategoriaApi\CategoriaApi\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\ClearTech\Documents\Projetos de estudo C#\CategoriaApi\CategoriaApi\bin\Debug\net5.0\MySql.Data.dll
+C:\Users\ClearTech\Documents\Projetos de estudo C#\CategoriaApi\CategoriaApi\bin\Debug\net5.0\Ubiety.Dns.Core.dll
+C:\Users\ClearTech\Documents\Projetos de estudo C#\CategoriaApi\CategoriaApi\bin\Debug\net5.0\ZstdNet.dll
+C:\Users\ClearTech\Documents\Projetos de estudo C#\CategoriaApi\CategoriaApi\bin\Debug\net5.0\MySql.EntityFrameworkCore.dll
+C:\Users\ClearTech\Documents\Projetos de estudo C#\CategoriaApi\CategoriaApi\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+C:\Users\ClearTech\Documents\Projetos de estudo C#\CategoriaApi\CategoriaApi\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\ClearTech\Documents\Projetos de estudo C#\CategoriaApi\CategoriaApi\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ClearTech\Documents\Projetos de estudo C#\CategoriaApi\CategoriaApi\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ClearTech\Documents\Projetos de estudo C#\CategoriaApi\CategoriaApi\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ClearTech\Documents\Sprints\CategoriaApi\CategoriaApi\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\ClearTech\Documents\Sprints\CategoriaApi\CategoriaApi\bin\Debug\net5.0\appsettings.json
+C:\Users\ClearTech\Documents\Sprints\CategoriaApi\CategoriaApi\bin\Debug\net5.0\CategoriaApi.exe
+C:\Users\ClearTech\Documents\Sprints\CategoriaApi\CategoriaApi\bin\Debug\net5.0\CategoriaApi.deps.json
+C:\Users\ClearTech\Documents\Sprints\CategoriaApi\CategoriaApi\bin\Debug\net5.0\CategoriaApi.runtimeconfig.json
+C:\Users\ClearTech\Documents\Sprints\CategoriaApi\CategoriaApi\bin\Debug\net5.0\CategoriaApi.runtimeconfig.dev.json
+C:\Users\ClearTech\Documents\Sprints\CategoriaApi\CategoriaApi\bin\Debug\net5.0\CategoriaApi.dll
+C:\Users\ClearTech\Documents\Sprints\CategoriaApi\CategoriaApi\bin\Debug\net5.0\CategoriaApi.pdb
+C:\Users\ClearTech\Documents\Sprints\CategoriaApi\CategoriaApi\bin\Debug\net5.0\Google.Protobuf.dll
+C:\Users\ClearTech\Documents\Sprints\CategoriaApi\CategoriaApi\bin\Debug\net5.0\Humanizer.dll
+C:\Users\ClearTech\Documents\Sprints\CategoriaApi\CategoriaApi\bin\Debug\net5.0\K4os.Compression.LZ4.dll
+C:\Users\ClearTech\Documents\Sprints\CategoriaApi\CategoriaApi\bin\Debug\net5.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\ClearTech\Documents\Sprints\CategoriaApi\CategoriaApi\bin\Debug\net5.0\K4os.Hash.xxHash.dll
+C:\Users\ClearTech\Documents\Sprints\CategoriaApi\CategoriaApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\ClearTech\Documents\Sprints\CategoriaApi\CategoriaApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\ClearTech\Documents\Sprints\CategoriaApi\CategoriaApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\ClearTech\Documents\Sprints\CategoriaApi\CategoriaApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\ClearTech\Documents\Sprints\CategoriaApi\CategoriaApi\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\ClearTech\Documents\Sprints\CategoriaApi\CategoriaApi\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\ClearTech\Documents\Sprints\CategoriaApi\CategoriaApi\bin\Debug\net5.0\MySql.Data.dll
+C:\Users\ClearTech\Documents\Sprints\CategoriaApi\CategoriaApi\bin\Debug\net5.0\Ubiety.Dns.Core.dll
+C:\Users\ClearTech\Documents\Sprints\CategoriaApi\CategoriaApi\bin\Debug\net5.0\ZstdNet.dll
+C:\Users\ClearTech\Documents\Sprints\CategoriaApi\CategoriaApi\bin\Debug\net5.0\MySql.EntityFrameworkCore.dll
+C:\Users\ClearTech\Documents\Sprints\CategoriaApi\CategoriaApi\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+C:\Users\ClearTech\Documents\Sprints\CategoriaApi\CategoriaApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\ClearTech\Documents\Sprints\CategoriaApi\CategoriaApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\ClearTech\Documents\Sprints\CategoriaApi\CategoriaApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\ClearTech\Documents\Sprints\CategoriaApi\CategoriaApi\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\ClearTech\Documents\Sprints\CategoriaApi\CategoriaApi\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ClearTech\Documents\Sprints\CategoriaApi\CategoriaApi\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ClearTech\Documents\Sprints\CategoriaApi\CategoriaApi\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ClearTech\Documents\Sprints\CategoriaApi\CategoriaApi\obj\Debug\net5.0\CategoriaApi.csproj.AssemblyReference.cache
+C:\Users\ClearTech\Documents\Sprints\CategoriaApi\CategoriaApi\obj\Debug\net5.0\CategoriaApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ClearTech\Documents\Sprints\CategoriaApi\CategoriaApi\obj\Debug\net5.0\CategoriaApi.AssemblyInfoInputs.cache
+C:\Users\ClearTech\Documents\Sprints\CategoriaApi\CategoriaApi\obj\Debug\net5.0\CategoriaApi.AssemblyInfo.cs
+C:\Users\ClearTech\Documents\Sprints\CategoriaApi\CategoriaApi\obj\Debug\net5.0\CategoriaApi.csproj.CoreCompileInputs.cache
+C:\Users\ClearTech\Documents\Sprints\CategoriaApi\CategoriaApi\obj\Debug\net5.0\CategoriaApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ClearTech\Documents\Sprints\CategoriaApi\CategoriaApi\obj\Debug\net5.0\CategoriaApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ClearTech\Documents\Sprints\CategoriaApi\CategoriaApi\obj\Debug\net5.0\scopedcss\bundle\CategoriaApi.styles.css
+C:\Users\ClearTech\Documents\Sprints\CategoriaApi\CategoriaApi\obj\Debug\net5.0\staticwebassets\CategoriaApi.StaticWebAssets.Manifest.cache
+C:\Users\ClearTech\Documents\Sprints\CategoriaApi\CategoriaApi\obj\Debug\net5.0\CategoriaApi.RazorTargetAssemblyInfo.cache
+C:\Users\ClearTech\Documents\Sprints\CategoriaApi\CategoriaApi\obj\Debug\net5.0\CategoriaApi.csproj.CopyComplete
+C:\Users\ClearTech\Documents\Sprints\CategoriaApi\CategoriaApi\obj\Debug\net5.0\CategoriaApi.dll
+C:\Users\ClearTech\Documents\Sprints\CategoriaApi\CategoriaApi\obj\Debug\net5.0\refint\CategoriaApi.dll
+C:\Users\ClearTech\Documents\Sprints\CategoriaApi\CategoriaApi\obj\Debug\net5.0\CategoriaApi.pdb
+C:\Users\ClearTech\Documents\Sprints\CategoriaApi\CategoriaApi\obj\Debug\net5.0\CategoriaApi.genruntimeconfig.cache
+C:\Users\ClearTech\Documents\Sprints\CategoriaApi\CategoriaApi\obj\Debug\net5.0\ref\CategoriaApi.dll
+C:\Users\ClearTech\Documents\Sprints\CategoriaApi\CategoriaApi\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\ClearTech\Documents\Sprints\CategoriaApi\CategoriaApi\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\ClearTech\Documents\Sprints\CategoriaApi\CategoriaApi\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\ClearTech\Documents\Sprints\CategoriaApi\CategoriaApi\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+C:\Users\ClearTech\Documents\Sprints\CategoriaApi\CategoriaApi\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\ClearTech\Documents\Sprints\CategoriaApi\CategoriaApi\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ClearTech\Documents\Sprints\CategoriaApi\CategoriaApi\bin\Debug\net5.0\Castle.Core.dll
+C:\Users\ClearTech\Documents\Sprints\CategoriaApi\CategoriaApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Proxies.dll
+C:\Users\ClearTech\Documents\Sprints\CategoriaApi\CategoriaApi\bin\Debug\net5.0\Dapper.dll
+C:\Users\ClearTech\Documents\Sprints\CategoriaApi\CategoriaApi\bin\Debug\net5.0\System.Data.SqlClient.dll
+C:\Users\ClearTech\Documents\Sprints\CategoriaApi\CategoriaApi\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+C:\Users\ClearTech\Documents\Sprints\CategoriaApi\CategoriaApi\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+C:\Users\ClearTech\Documents\Sprints\CategoriaApi\CategoriaApi\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+C:\Users\ClearTech\Documents\Sprints\CategoriaApi\CategoriaApi\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\ClearTech\Documents\Sprints\CategoriaApi\CategoriaApi\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\ClearTech\Documents\Sprints\CategoriaApi\CategoriaApi\bin\Debug\net5.0\Dapper.Contrib.dll
+C:\Users\ClearTech\Documents\Sprints\CategoriaApi\CategoriaApi\bin\Debug\net5.0\FluentResults.dll
+C:\Diretorioazure\T2-VladmirNeres\CategoriaApi\CategoriaApi\obj\Debug\net5.0\CategoriaApi.csproj.AssemblyReference.cache
+C:\Diretorioazure\T2-VladmirNeres\CategoriaApi\CategoriaApi\obj\Debug\net5.0\CategoriaApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Diretorioazure\T2-VladmirNeres\CategoriaApi\CategoriaApi\obj\Debug\net5.0\CategoriaApi.AssemblyInfoInputs.cache
+C:\Diretorioazure\T2-VladmirNeres\CategoriaApi\CategoriaApi\obj\Debug\net5.0\CategoriaApi.AssemblyInfo.cs
+C:\Diretorioazure\T2-VladmirNeres\CategoriaApi\CategoriaApi\obj\Debug\net5.0\CategoriaApi.csproj.CoreCompileInputs.cache
+C:\Diretorioazure\T2-VladmirNeres\CategoriaApi\CategoriaApi\obj\Debug\net5.0\CategoriaApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Diretorioazure\T2-VladmirNeres\CategoriaApi\CategoriaApi\obj\Debug\net5.0\CategoriaApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Diretorioazure\T2-VladmirNeres\CategoriaApi\CategoriaApi\obj\Debug\net5.0\CategoriaApi.dll
+C:\Diretorioazure\T2-VladmirNeres\CategoriaApi\CategoriaApi\obj\Debug\net5.0\refint\CategoriaApi.dll
+C:\Diretorioazure\T2-VladmirNeres\CategoriaApi\CategoriaApi\obj\Debug\net5.0\CategoriaApi.pdb
+C:\Diretorioazure\T2-VladmirNeres\CategoriaApi\CategoriaApi\bin\Debug\net5.0\appsettings.Development.json
+C:\Diretorioazure\T2-VladmirNeres\CategoriaApi\CategoriaApi\bin\Debug\net5.0\appsettings.json
+C:\Diretorioazure\T2-VladmirNeres\CategoriaApi\CategoriaApi\bin\Debug\net5.0\CategoriaApi.exe
+C:\Diretorioazure\T2-VladmirNeres\CategoriaApi\CategoriaApi\bin\Debug\net5.0\CategoriaApi.deps.json
+C:\Diretorioazure\T2-VladmirNeres\CategoriaApi\CategoriaApi\bin\Debug\net5.0\CategoriaApi.runtimeconfig.json
+C:\Diretorioazure\T2-VladmirNeres\CategoriaApi\CategoriaApi\bin\Debug\net5.0\CategoriaApi.runtimeconfig.dev.json
+C:\Diretorioazure\T2-VladmirNeres\CategoriaApi\CategoriaApi\bin\Debug\net5.0\CategoriaApi.dll
+C:\Diretorioazure\T2-VladmirNeres\CategoriaApi\CategoriaApi\bin\Debug\net5.0\CategoriaApi.pdb
+C:\Diretorioazure\T2-VladmirNeres\CategoriaApi\CategoriaApi\bin\Debug\net5.0\AutoMapper.dll
+C:\Diretorioazure\T2-VladmirNeres\CategoriaApi\CategoriaApi\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Diretorioazure\T2-VladmirNeres\CategoriaApi\CategoriaApi\bin\Debug\net5.0\Castle.Core.dll
+C:\Diretorioazure\T2-VladmirNeres\CategoriaApi\CategoriaApi\bin\Debug\net5.0\Dapper.dll
+C:\Diretorioazure\T2-VladmirNeres\CategoriaApi\CategoriaApi\bin\Debug\net5.0\Dapper.Contrib.dll
+C:\Diretorioazure\T2-VladmirNeres\CategoriaApi\CategoriaApi\bin\Debug\net5.0\FluentResults.dll
+C:\Diretorioazure\T2-VladmirNeres\CategoriaApi\CategoriaApi\bin\Debug\net5.0\Google.Protobuf.dll
+C:\Diretorioazure\T2-VladmirNeres\CategoriaApi\CategoriaApi\bin\Debug\net5.0\Humanizer.dll
+C:\Diretorioazure\T2-VladmirNeres\CategoriaApi\CategoriaApi\bin\Debug\net5.0\K4os.Compression.LZ4.dll
+C:\Diretorioazure\T2-VladmirNeres\CategoriaApi\CategoriaApi\bin\Debug\net5.0\K4os.Compression.LZ4.Streams.dll
+C:\Diretorioazure\T2-VladmirNeres\CategoriaApi\CategoriaApi\bin\Debug\net5.0\K4os.Hash.xxHash.dll
+C:\Diretorioazure\T2-VladmirNeres\CategoriaApi\CategoriaApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Diretorioazure\T2-VladmirNeres\CategoriaApi\CategoriaApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Diretorioazure\T2-VladmirNeres\CategoriaApi\CategoriaApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Diretorioazure\T2-VladmirNeres\CategoriaApi\CategoriaApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Proxies.dll
+C:\Diretorioazure\T2-VladmirNeres\CategoriaApi\CategoriaApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Diretorioazure\T2-VladmirNeres\CategoriaApi\CategoriaApi\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Diretorioazure\T2-VladmirNeres\CategoriaApi\CategoriaApi\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Diretorioazure\T2-VladmirNeres\CategoriaApi\CategoriaApi\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+C:\Diretorioazure\T2-VladmirNeres\CategoriaApi\CategoriaApi\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Diretorioazure\T2-VladmirNeres\CategoriaApi\CategoriaApi\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Diretorioazure\T2-VladmirNeres\CategoriaApi\CategoriaApi\bin\Debug\net5.0\MySql.Data.dll
+C:\Diretorioazure\T2-VladmirNeres\CategoriaApi\CategoriaApi\bin\Debug\net5.0\Ubiety.Dns.Core.dll
+C:\Diretorioazure\T2-VladmirNeres\CategoriaApi\CategoriaApi\bin\Debug\net5.0\ZstdNet.dll
+C:\Diretorioazure\T2-VladmirNeres\CategoriaApi\CategoriaApi\bin\Debug\net5.0\MySql.EntityFrameworkCore.dll
+C:\Diretorioazure\T2-VladmirNeres\CategoriaApi\CategoriaApi\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+C:\Diretorioazure\T2-VladmirNeres\CategoriaApi\CategoriaApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Diretorioazure\T2-VladmirNeres\CategoriaApi\CategoriaApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Diretorioazure\T2-VladmirNeres\CategoriaApi\CategoriaApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Diretorioazure\T2-VladmirNeres\CategoriaApi\CategoriaApi\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Diretorioazure\T2-VladmirNeres\CategoriaApi\CategoriaApi\bin\Debug\net5.0\System.Data.SqlClient.dll
+C:\Diretorioazure\T2-VladmirNeres\CategoriaApi\CategoriaApi\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Diretorioazure\T2-VladmirNeres\CategoriaApi\CategoriaApi\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Diretorioazure\T2-VladmirNeres\CategoriaApi\CategoriaApi\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Diretorioazure\T2-VladmirNeres\CategoriaApi\CategoriaApi\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+C:\Diretorioazure\T2-VladmirNeres\CategoriaApi\CategoriaApi\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+C:\Diretorioazure\T2-VladmirNeres\CategoriaApi\CategoriaApi\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+C:\Diretorioazure\T2-VladmirNeres\CategoriaApi\CategoriaApi\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Diretorioazure\T2-VladmirNeres\CategoriaApi\CategoriaApi\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Diretorioazure\T2-VladmirNeres\CategoriaApi\CategoriaApi\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Diretorioazure\T2-VladmirNeres\CategoriaApi\CategoriaApi\obj\Debug\net5.0\scopedcss\bundle\CategoriaApi.styles.css
+C:\Diretorioazure\T2-VladmirNeres\CategoriaApi\CategoriaApi\obj\Debug\net5.0\staticwebassets\CategoriaApi.StaticWebAssets.Manifest.cache
+C:\Diretorioazure\T2-VladmirNeres\CategoriaApi\CategoriaApi\obj\Debug\net5.0\CategoriaApi.RazorTargetAssemblyInfo.cache
+C:\Diretorioazure\T2-VladmirNeres\CategoriaApi\CategoriaApi\obj\Debug\net5.0\CategoriaApi.csproj.CopyComplete
+C:\Diretorioazure\T2-VladmirNeres\CategoriaApi\CategoriaApi\obj\Debug\net5.0\CategoriaApi.genruntimeconfig.cache
+C:\Diretorioazure\T2-VladmirNeres\CategoriaApi\CategoriaApi\obj\Debug\net5.0\ref\CategoriaApi.dll
+C:\Users\ClearTech\Documents\Sprints\CategoriaApi\CategoriaApi\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Diretorioazure\T2-VladmirNeres\CategoriaApi\CategoriaApi\bin\Debug\net5.0\Newtonsoft.Json.dll
