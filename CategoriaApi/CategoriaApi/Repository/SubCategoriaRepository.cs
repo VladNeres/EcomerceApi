@@ -1,14 +1,15 @@
 ﻿using CategoriaApi.Data;
 using CategoriaApi.Data.Dto.DtoSubCategoria;
+using CategoriaApi.Interfaces;
 using CategoriaApi.Model;
 using System.Collections.Generic;
 using System.Linq;
 
 namespace CategoriaApi.Repository
 {
-    public class SubCategoriaRepository
+    public class SubCategoriaRepository:ISubCategoriaRepository
     {
-        DatabaseContext _context;
+       private readonly  DatabaseContext _context;
 
         public SubCategoriaRepository(DatabaseContext context)
         {

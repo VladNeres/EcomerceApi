@@ -1,5 +1,4 @@
 ﻿using AutoMapper;
-using CategoriaApi.Data;
 using CategoriaApi.Data.Dto.CentroDto;
 using CategoriaApi.Exceptions;
 using CategoriaApi.Model;
@@ -34,7 +33,7 @@ namespace CategoriaApi.Services
                 var resposta = await requisicao.Content.ReadAsStringAsync();
                 if(!requisicao.IsSuccessStatusCode)
                 {
-                    throw new NullException();
+                    throw new NullException("Falha na requisição do endereço");
                 }
                     var endereco = JsonConvert.DeserializeObject<CentroDeDistribuicao>(resposta);
                     return endereco;
@@ -44,10 +43,9 @@ namespace CategoriaApi.Services
      
         public async Task<ReadCentroDto> AddCentroDeDistribuicao(CreateCentroDto centroDto)
         {
-           
             CentroDeDistribuicao categoriaNome = _repository.RetornarNomeDocentro(centroDto);
             CentroDeDistribuicao centroEndereco = _repository.RetornarEndereco(centroDto);
-            
+
             if (centroDto.Nome.Length >= 3)
             {
                 if (categoriaNome == null)
@@ -56,7 +54,7 @@ namespace CategoriaApi.Services
                     {
                          throw new AlreadyExistException("Esse endereço já foi cadastrado");
                     }
-                    
+                   
                         var endereco= await ViaCep(centroDto.CEP);
                         CentroDeDistribuicao centro = _mapper.Map<CentroDeDistribuicao>(centroDto);
                         centro.DataCriacao = DateTime.Now;
@@ -66,26 +64,26 @@ namespace CategoriaApi.Services
                 }
                 throw new AlreadyExistException("Esse nome de centro de distribuição já existe");
             }
-            throw new MinCharacterException();
+            throw new MinCharacterException("É necessario informar de 3 a 50 caracteres");
         }
 
-        public Result AtualizarCentroService(int id, UpdateCentroDto centroDto)
+        public async Task<Result> AtualizarCentroService(int id, UpdateCentroDto centroDto)
         {
             CentroDeDistribuicao centro = _repository.RecuperarCentroPorId(id);
             if(centro == null)
             {
                 return Result.Fail("Centro não encontrado");
             }
-            if(centro.Produtos.Count()>0 && centro.Status == true)
+            if(centro.Produtos.Count()>0 && centroDto.Status != true)
             {
                 throw new InativeObjectException("Não é possivel inativar um centro que contenha um produto cadastrado");
             }
-            var endereço = ViaCep(centroDto.CEP);
-            centroDto.CEP = endereço.Result.CEP;
-            centroDto.Logradouro = endereço.Result.Logradouro;
-            centroDto.Bairro = endereço.Result.Bairro;
-            centroDto.Localidade = endereço.Result.Localidade;
-            centroDto.UF = endereço.Result.UF;
+            var endereço = await ViaCep(centroDto.CEP);
+            centroDto.CEP = endereço.CEP;
+            centroDto.Logradouro = endereço.Logradouro;
+            centroDto.Bairro = endereço.Bairro;
+            centroDto.Localidade = endereço.Localidade;
+            centroDto.UF = endereço.UF;
             CentroDeDistribuicao centroupdate = _mapper.Map(centroDto, centro);
             centroupdate.DataAtualizacao = DateTime.Now;
             _repository.Salvar();
@@ -113,11 +111,9 @@ namespace CategoriaApi.Services
                 return centroDto;
             }
                 return null;
-
         }
 
         public List<CentroDeDistribuicao> GetCentroDeDistribuicao(CentroPesquisa pesquisa)
-
         {
             return _repository.GetCentroDeDistribuicao(pesquisa);
         }

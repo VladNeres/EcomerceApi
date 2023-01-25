@@ -1,12 +1,13 @@
 ﻿using CategoriaApi.Data;
 using CategoriaApi.Data.Dto.DtoCategoria;
+using CategoriaApi.Interfaces;
 using CategoriaApi.Model;
 using System.Collections.Generic;
 using System.Linq;
 
 namespace CategoriaApi.Repository
 {
-    public class CategoriaRepository
+    public class CategoriaRepository:ICategoriaRepository
     {
         private readonly DatabaseContext _context;
         public CategoriaRepository(DatabaseContext context)
@@ -59,7 +60,6 @@ namespace CategoriaApi.Repository
         public void SalvarAlteraçoes()
         {
             _context.SaveChanges();
-             
         }
     }
 }

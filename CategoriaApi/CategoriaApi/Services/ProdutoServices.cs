@@ -33,15 +33,17 @@ namespace CategoriaApi.Services
 
             if (produtoDto.Nome.Length<3 || produtoDto.Nome.Length>50)
             {
-                throw new MinCharacterException();
+                throw new MinCharacterException("É necessario informar de 3 a 50 caracteres");
             }
             if (subId == null || centroId== null)
             {
-                throw new NullException();
+                throw new NullException("Subcategoria ou Centro de destribuição não encontrado," +
+                    "por favor insira uma subcategoria ou centro valido");
             }
             if (subId.Status == false)
             {
-                throw new InativeObjectException();
+                throw new InativeObjectException("Não é possivel cadastrar um produto em uma subcategoria inativa\n" +
+                    "Por favor insira uma subcategoria valida");
             }
             if (produtoNome == null)
             {
@@ -53,7 +55,7 @@ namespace CategoriaApi.Services
                 return _mapper.Map<ReadProdutoDto>(produto);
 
             }
-            throw new AlreadyExistException();
+            throw new AlreadyExistException("O produto já existe");
         }
 
 

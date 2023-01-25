@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ClearTech\\Documents\\Sprints\\CategoriaApi\\CategoriaApi\\CategoriaApi.csproj": {}
+    "C:\\Diretorioazure\\T2-VladmirNeres\\CategoriaApi\\CategoriaApi\\CategoriaApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ClearTech\\Documents\\Sprints\\CategoriaApi\\CategoriaApi\\CategoriaApi.csproj": {
+    "C:\\Diretorioazure\\T2-VladmirNeres\\CategoriaApi\\CategoriaApi\\CategoriaApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ClearTech\\Documents\\Sprints\\CategoriaApi\\CategoriaApi\\CategoriaApi.csproj",
+        "projectUniqueName": "C:\\Diretorioazure\\T2-VladmirNeres\\CategoriaApi\\CategoriaApi\\CategoriaApi.csproj",
         "projectName": "CategoriaApi",
-        "projectPath": "C:\\Users\\ClearTech\\Documents\\Sprints\\CategoriaApi\\CategoriaApi\\CategoriaApi.csproj",
+        "projectPath": "C:\\Diretorioazure\\T2-VladmirNeres\\CategoriaApi\\CategoriaApi\\CategoriaApi.csproj",
         "packagesPath": "C:\\Users\\ClearTech\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ClearTech\\Documents\\Sprints\\CategoriaApi\\CategoriaApi\\obj\\",
+        "outputPath": "C:\\Diretorioazure\\T2-VladmirNeres\\CategoriaApi\\CategoriaApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ClearTech\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -55,6 +55,14 @@
             "FluentResults": {
               "target": "Package",
               "version": "[2.5.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.AspNetCore.Authorization": {
+              "target": "Package",
+              "version": "[5.0.17, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",

@@ -14,6 +14,7 @@ namespace CategoriaApi.Model
         [StringLength(128, ErrorMessage = "Voce excedeu o tamnho maximo de 128 caracteres")]
         [RegularExpression(@"[a-zA-Z-á-úÁ-Ú' '/s]{1,1000}", ErrorMessage = "O campo nome deve conter apenas letras")]
         [Required(ErrorMessage = "O campo nome é obrigatório")]
+        
         public string Nome { get; set; }
 
         [StringLength(512, ErrorMessage = "Voce excedeu o tamanho maximo de 512 caracteres")]

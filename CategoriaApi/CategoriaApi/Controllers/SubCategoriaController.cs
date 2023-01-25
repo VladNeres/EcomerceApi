@@ -33,18 +33,17 @@ namespace CategoriaApi.Controllers
                 return CreatedAtAction(nameof(GetSubCategoriaPorId), new { id = subDto.Id }, subDto);
 
             }
-            catch (InativeObjectException)
+            catch (AlreadyExistException e)
             {
-                return BadRequest("Não é possivel cadastrar uma subcategoria em uma categoria inativa\n" +
-                    "Por favor insira uma categoria valida");
+                return BadRequest(e.Message);
             }
-            catch (AlreadyExistException)
+            catch (MinCharacterException e)
             {
-                return BadRequest("Não é possivel cadastrar duas subCategorias com o mesmo nome");
+                return BadRequest(e.Message);
             }
-            catch (MinCharacterException)
+            catch (InativeObjectException e)
             {
-                return BadRequest("O Campo nome deve conter no minimo 3 letras");
+                return BadRequest(e.Message);
             }
         }
 

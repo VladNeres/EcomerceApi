@@ -38,24 +38,23 @@ namespace CategoriaApi.Controllers
                 return CreatedAtAction(nameof(GetProdutoPorId), new { Id = prodServices.Id }, prodServices);
 
             }
-            catch (NullException)
+            catch (NullException e)
             {
-                return BadRequest("Subcategoria ou Centro de destribuição não encontrado," +
-                    " por favor insira uma subcategoria ou centro valido");
+                return BadRequest(e.Message);
             }
-            catch (MinCharacterException)
+            catch (MinCharacterException e)
             {
                 
-                return BadRequest("O produto deve ser criado com no minimo 3 caracteres");
+                return BadRequest(e.Message);
 
             }
-            catch (InativeObjectException)
+            catch (InativeObjectException e)
             {
-                return BadRequest("Não é possivel criar um produto em uma subCategoria inativa");
+                return BadRequest(e.Message);
             }
-            catch (AlreadyExistException )
+            catch (AlreadyExistException e)
             {
-                return BadRequest("Já existe um produto com esse nome");
+                return BadRequest(e.Message);
             }
         }
 

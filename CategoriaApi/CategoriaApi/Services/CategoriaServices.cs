@@ -2,9 +2,8 @@
 using CategoriaApi.Data;
 using CategoriaApi.Data.Dto.DtoCategoria;
 using CategoriaApi.Exceptions;
+using CategoriaApi.Interfaces;
 using CategoriaApi.Model;
-using CategoriaApi.Repository;
-using Dapper;
 using FluentResults;
 using System;
 using System.Collections.Generic;
@@ -13,12 +12,12 @@ using System.Linq;
 
 namespace CategoriaApi.Services
 {
-    public class CategoriaServices
+    public class CategoriaServices: ICategoriaService
     {
-        private CategoriaRepository _repository;
+        private ICategoriaRepository _repository;
         private IMapper _mapper;
 
-        public CategoriaServices(IMapper mapper, CategoriaRepository repository)
+        public CategoriaServices(IMapper mapper, ICategoriaRepository repository)
         {
             _repository = repository;
             _mapper = mapper;
@@ -28,7 +27,7 @@ namespace CategoriaApi.Services
         {
             Categoria categoriaNome = _repository.BuscarNomeCategoria(categoriaDto);
 
-            if (categoriaDto.Nome.Length >= 3)
+            if (categoriaDto.Nome.Length >= 3 && categoriaDto.Nome.Length<=50)
             {
                 if (categoriaNome == null)
                 {
@@ -39,9 +38,9 @@ namespace CategoriaApi.Services
                     return _mapper.Map<ReadCategoriaDto>(categoria);
 
                 }
-                throw new AlreadyExistException();
+                throw new AlreadyExistException("A categoria já existe");
             }
-            throw new MinCharacterException();
+            throw new MinCharacterException("É necessario informar de 3 a 50 caracteres");
         }
 
         public Result EditarCategoria(int id, UpdateCategoriaDto categoriaDto)
@@ -53,11 +52,11 @@ namespace CategoriaApi.Services
             {
                 return Result.Fail("Categoria não encontrada");
             }
-            if (categorias.SubCategoria.Count()>0 && categorias.Status==true)
+            if (categorias.SubCategoria.Count()>0 && categoriaDto.Status!=true)
             {
                 throw new InativeObjectException("Não é possivel inativar uma categoria que contenha uma subCategoria cadastrada");
             }
-            _mapper.Map(categoriaDto, categorias);
+             _mapper.Map(categoriaDto, categorias);
             categorias.DataAtualizacao = DateTime.Now;
             _repository.SalvarAlteraçoes();
             return Result.Ok();

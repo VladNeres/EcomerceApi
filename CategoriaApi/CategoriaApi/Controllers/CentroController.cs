@@ -6,6 +6,7 @@ using CategoriaApi.Model;
 using CategoriaApi.Services;
 using FluentResults;
 using Microsoft.AspNetCore.Mvc;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -35,33 +36,38 @@ namespace CategoriaApi.Controllers
                 ReadCentroDto readCentro = await _service.AddCentroDeDistribuicao(centroDto);
                 return CreatedAtAction(nameof(GetCentroPorId), new { id = readCentro.Id }, readCentro);
             }
+            catch (FormatException e)
+            {
+                return BadRequest(e.Message);
+            }
             catch (AlreadyExistException e)
             {
                 return BadRequest(e.Message);
             }
-            catch (NullException)
+            catch (NullException e)
             {
-                return BadRequest("Falha na requisição do endereço");
+                return BadRequest(e.Message);
             }
-            catch (MinCharacterException)
+            catch (MinCharacterException e)
             {
-                return BadRequest("Minimo de 3 carcteres  necessario não atingido ");
+                return BadRequest(e.Message);
             }
+          
         }
 
         [HttpPut("{id}")]
-        public IActionResult AtualizarCentro(int id, [FromBody] UpdateCentroDto updateCentro)
+        public async Task<IActionResult> AtualizarCentro(int id, [FromBody] UpdateCentroDto updateCentro)
         {
             try
             {
-                var centro = _service.AtualizarCentroService(id, updateCentro);
+                var centro = await _service.AtualizarCentroService(id, updateCentro);
                 if (centro.IsFailed) return NotFound();
                 return NoContent();
 
             }
             catch (NullException)
             {
-                return NotFound("Id não encontrado");
+                return NotFound("Centro não encontrado");
             }
             catch(InativeObjectException e)
             {

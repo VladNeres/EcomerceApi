@@ -9,21 +9,18 @@ using System.Linq;
 using System.Data;
 using CategoriaApi.Exceptions;
 using CategoriaApi.Repository;
+using CategoriaApi.Interfaces;
 
 namespace CategoriaApi.Services
 {
-    public class SubCategoriaService
+    public class SubCategoriaService:ISubCategoriaService
     {
-        private DatabaseContext _context;
         private IMapper _mapper;
-        private SubCategoriaRepository _subRepository;
-        private readonly IDbConnection _dbConnection;
-        public SubCategoriaService(DatabaseContext context, IMapper mapper, IDbConnection dbConnection, SubCategoriaRepository repository)
+        private ISubCategoriaRepository _subRepository;
+        public SubCategoriaService( IMapper mapper,ISubCategoriaRepository repository)
         {
             _subRepository= repository;
-            _context= context;
             _mapper = mapper;
-            _dbConnection= dbConnection;
         }
 
         public ReadSubCategoriaDto CriarSubCategoria(CreateSubCategoriaDto subCategoriaDto)
@@ -33,8 +30,10 @@ namespace CategoriaApi.Services
 
             if(subId == null || subId.Status== false )
             {
-                throw new InativeObjectException();
+                throw new InativeObjectException("Não é possivel cadastrar uma subcategoria em uma categoria inativa\n" +
+                    "Por favor insira uma categoria valida");
             }
+           
             if (subCategoriaDto.Nome.Length >= 3 && subCategoriaDto.Nome.Length <= 50)
             {
                 if (subCategoriaNome == null)
@@ -46,9 +45,9 @@ namespace CategoriaApi.Services
                    _subRepository.AddSubCategoria(subCategoria);
                     return _mapper.Map<ReadSubCategoriaDto>(subCategoria);
                 }
-                throw  new AlreadyExistException("A já existe uma subCategoria com esse nome");
+                throw  new AlreadyExistException("A subcategoria já existe");
             }
-            throw new MinCharacterException("A categoria deve conter entre 3 e 50 caracteres");
+            throw new MinCharacterException("É necessario informar de 3 a 50 caracteres");
         }
 
         public Result EditarSubCategoria(int id, UpdateSubCategoriaDto subDto)
@@ -60,7 +59,7 @@ namespace CategoriaApi.Services
             }
             if(subCategoria.Produtos.Count()> 0 && subDto.Status!= true)
             {
-                return Result.Fail("Não é possivel desativar essa subcategoria pois existem produtos cadastrados");
+                return Result.Fail("Não é possivel inativar uma subcategoria que contenha um produto cadastrado");
             }
                 _mapper.Map(subDto, subCategoria);
                 subCategoria.DataAtualizacao = DateTime.Now;
@@ -126,13 +125,11 @@ namespace CategoriaApi.Services
 
             List<ReadSubCategoriaDto> readDto = _mapper.Map<List<ReadSubCategoriaDto>>(subcategorias);
             return readDto;
-
-
         }
 
         public ReadSubCategoriaDto GetSubPorId(int id)
         {
-            SubCategoria subCategoria = _context.SubCategorias.FirstOrDefault(subCategoria => subCategoria.Id == id);
+            SubCategoria subCategoria = _subRepository.RecuperarSubPorId(id);
             if (subCategoria != null)
             {
                 ReadSubCategoriaDto readSubCategoria = _mapper.Map<ReadSubCategoriaDto>(subCategoria);

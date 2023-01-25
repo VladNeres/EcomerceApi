@@ -7,7 +7,7 @@ namespace CategoriaApi.Data
     {
         public DatabaseContext(DbContextOptions<DatabaseContext> opt) : base(opt)
         {
-
+            
         }
         protected override void OnModelCreating(ModelBuilder builder)
         {
